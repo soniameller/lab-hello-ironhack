@@ -1,13 +1,19 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #1f2535;
+}
+
+.Navbar {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 8vmin;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,5 +24,9 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #282c34;
+  padding: 12px;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 8px;
 }
